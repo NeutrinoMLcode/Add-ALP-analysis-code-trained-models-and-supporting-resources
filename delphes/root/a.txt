@@ -1,0 +1,7 @@
+python scan_delphes_llp_boundaries_parallel.py \
+  --root-dir "/home/wsy/MG5_aMC_v3_5_6_LLP/ALP_LLP" \
+  --out-dir "/home/wsy/MG5_aMC_v3_5_6_LLP/ALP_LLP/llp_boundary_check_parallel" \
+  --alp-id 9000001 \
+  --pattern "tag_1_delphes_events.root" \
+  --n-workers 8 \
+  --print-branches 1
